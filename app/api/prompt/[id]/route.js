@@ -16,7 +16,7 @@ export const GET = async (request, { params }) => {
 }
 
 export const PATCH = async (request, { params }) => {
-  console.log(params)
+  // console.log(params)
   const { prompt, tag } = await request.json()
 
 
